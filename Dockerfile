@@ -82,6 +82,5 @@ LABEL org.label-schema.license="ISC" \
       org.label-schema.docker.cmd.help="docker run -ti --rm zixia/wechaty help" \
       org.label-schema.docker.params="WECHATY_TOKEN=token token from https://www.chatie.io"
 
-RUN echo "Asia/Shanghai" > /etc/timezone
 
 #RUN npm test
