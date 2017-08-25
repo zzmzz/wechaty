@@ -59,7 +59,7 @@ RUN  sed -i '/chromedriver/d' package.json \
 
 VOLUME [ "/bot" ]
 
-ENTRYPOINT [ "/wechaty/bin/entrypoint.sh" ]
+ENTRYPOINT [ "/wechaty/bin/entrypoint1.sh" ]
 CMD [ "" ]
 
 #
