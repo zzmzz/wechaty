@@ -30,6 +30,7 @@ RUN  apk update && apk upgrade \
 
 RUN mkdir /wechaty
 WORKDIR /wechaty
+RUN chmod +x /wechaty/bin/entrypoint1.sh
 
 # npm `chromedriver` not support alpine linux
 # https://github.com/giggio/node-chromedriver/issues/70
